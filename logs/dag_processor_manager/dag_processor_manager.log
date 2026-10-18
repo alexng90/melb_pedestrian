@@ -1,0 +1,38 @@
+[2026-10-17T09:26:53.191+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2026-10-17T09:26:53.195+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2026-10-17T09:26:53.199+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-10-17T09:26:53.203+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2026-10-17T09:26:53.243+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2026-10-17T09:26:55.543+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/melbourne_pedestrian_pipeline.py    209  0.50s             0           0
+================================================================================
+[2026-10-17T09:27:26.020+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/melbourne_pedestrian_pipeline.py                           1           0  21.47s          2026-10-17T09:27:16
+================================================================================
+[2026-10-17T09:27:56.118+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/melbourne_pedestrian_pipeline.py                           1           0  8.78s           2026-10-17T09:27:55
+================================================================================
+[2026-10-17T09:28:26.816+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/melbourne_pedestrian_pipeline.py    234  1.03s             1           0  8.78s           2026-10-17T09:27:55
+================================================================================
+[2026-10-17T09:28:37.986+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15

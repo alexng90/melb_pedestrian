@@ -1,0 +1,25 @@
+[2026-10-17T09:26:54.929+0000] {processor.py:161} INFO - Started process (PID=209) to work on /opt/airflow/dags/melbourne_pedestrian_pipeline.py
+[2026-10-17T09:26:54.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/melbourne_pedestrian_pipeline.py for tasks to queue
+[2026-10-17T09:26:54.979+0000] {logging_mixin.py:188} INFO - [2026-10-17T09:26:54.978+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/melbourne_pedestrian_pipeline.py
+[2026-10-17T09:27:14.882+0000] {processor.py:840} INFO - DAG(s) 'melbourne_pedestrian_traffic_pipeline' retrieved from /opt/airflow/dags/melbourne_pedestrian_pipeline.py
+[2026-10-17T09:27:15.724+0000] {logging_mixin.py:188} INFO - [2026-10-17T09:27:15.722+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:melbourne_pedestrian_traffic_pipeline
+[2026-10-17T09:27:15.751+0000] {logging_mixin.py:188} INFO - [2026-10-17T09:27:15.750+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:melbourne_pedestrian_traffic_pipeline
+[2026-10-17T09:27:15.776+0000] {logging_mixin.py:188} INFO - [2026-10-17T09:27:15.775+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:melbourne_pedestrian_traffic_pipeline
+[2026-10-17T09:27:15.779+0000] {logging_mixin.py:188} INFO - [2026-10-17T09:27:15.778+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-17T09:27:15.869+0000] {logging_mixin.py:188} INFO - [2026-10-17T09:27:15.868+0000] {dag.py:3118} INFO - Creating ORM DAG for melbourne_pedestrian_traffic_pipeline
+[2026-10-17T09:27:15.873+0000] {logging_mixin.py:188} INFO - [2026-10-17T09:27:15.873+0000] {dag.py:3954} INFO - Setting next_dagrun for melbourne_pedestrian_traffic_pipeline to None, run_after=None
+[2026-10-17T09:27:16.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/melbourne_pedestrian_pipeline.py took 21.229 seconds
+[2026-10-17T09:27:46.673+0000] {processor.py:161} INFO - Started process (PID=222) to work on /opt/airflow/dags/melbourne_pedestrian_pipeline.py
+[2026-10-17T09:27:46.686+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/melbourne_pedestrian_pipeline.py for tasks to queue
+[2026-10-17T09:27:46.712+0000] {logging_mixin.py:188} INFO - [2026-10-17T09:27:46.709+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/melbourne_pedestrian_pipeline.py
+[2026-10-17T09:27:54.569+0000] {processor.py:840} INFO - DAG(s) 'melbourne_pedestrian_traffic_pipeline' retrieved from /opt/airflow/dags/melbourne_pedestrian_pipeline.py
+[2026-10-17T09:27:54.758+0000] {logging_mixin.py:188} INFO - [2026-10-17T09:27:54.750+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-17T09:27:54.847+0000] {logging_mixin.py:188} INFO - [2026-10-17T09:27:54.847+0000] {dag.py:3954} INFO - Setting next_dagrun for melbourne_pedestrian_traffic_pipeline to None, run_after=None
+[2026-10-17T09:27:54.960+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/melbourne_pedestrian_pipeline.py took 8.457 seconds
+[2026-10-17T09:28:26.050+0000] {processor.py:161} INFO - Started process (PID=234) to work on /opt/airflow/dags/melbourne_pedestrian_pipeline.py
+[2026-10-17T09:28:26.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/melbourne_pedestrian_pipeline.py for tasks to queue
+[2026-10-17T09:28:26.136+0000] {logging_mixin.py:188} INFO - [2026-10-17T09:28:26.131+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/melbourne_pedestrian_pipeline.py
+[2026-10-17T09:28:32.785+0000] {processor.py:840} INFO - DAG(s) 'melbourne_pedestrian_traffic_pipeline' retrieved from /opt/airflow/dags/melbourne_pedestrian_pipeline.py
+[2026-10-17T09:28:32.964+0000] {logging_mixin.py:188} INFO - [2026-10-17T09:28:32.961+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-17T09:28:33.024+0000] {logging_mixin.py:188} INFO - [2026-10-17T09:28:33.024+0000] {dag.py:3954} INFO - Setting next_dagrun for melbourne_pedestrian_traffic_pipeline to None, run_after=None
+[2026-10-17T09:28:33.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/melbourne_pedestrian_pipeline.py took 7.207 seconds

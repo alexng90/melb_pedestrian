@@ -1,0 +1,138 @@
+[
+  {
+    "location_id":5,
+    "sensor_description":"Princes Bridge",
+    "sensor_name":"PriNW_T",
+    "installation_date":"2009-03-26",
+    "note":"Replace with: 00:6e:02:01:9e:54",
+    "location_type":"Outdoor",
+    "status":"A",
+    "direction_1":"North",
+    "direction_2":"South",
+    "latitude":-37.81874249,
+    "longitude":144.96787656,
+    "location":{
+      "lon":144.96787656,
+      "lat":-37.81874249
+    }
+  },
+  {
+    "location_id":25,
+    "sensor_description":"Melbourne Convention Exhibition Centre",
+    "sensor_name":"MCEC_T",
+    "installation_date":"2013-08-28",
+    "note":null,
+    "location_type":"Outdoor",
+    "status":"A",
+    "direction_1":"East",
+    "direction_2":"West",
+    "latitude":-37.82401776,
+    "longitude":144.95604426,
+    "location":{
+      "lon":144.95604426,
+      "lat":-37.82401776
+    }
+  },
+  {
+    "location_id":29,
+    "sensor_description":"St Kilda Rd-Alexandra Gardens",
+    "sensor_name":"AG_T",
+    "installation_date":"2013-10-11",
+    "note":"sensor upgraded from laser to 3D on 19\/12\/2019",
+    "location_type":"Outdoor",
+    "status":"A",
+    "direction_1":"North",
+    "direction_2":"South",
+    "latitude":-37.8199817,
+    "longitude":144.96872865,
+    "location":{
+      "lon":144.96872865,
+      "lat":-37.8199817
+    }
+  },
+  {
+    "location_id":35,
+    "sensor_description":"Southbank Promenade",
+    "sensor_name":"SouthB_T",
+    "installation_date":"2016-04-11",
+    "note":"Device replaced with two new sensors on 15-4-21",
+    "location_type":"Outdoor",
+    "status":"A",
+    "direction_1":"East",
+    "direction_2":"West",
+    "latitude":-37.82018685,
+    "longitude":144.96508508,
+    "location":{
+      "lon":144.96508508,
+      "lat":-37.82018685
+    }
+  },
+  {
+    "location_id":41,
+    "sensor_description":"Flinders La-Swanston St (West)",
+    "sensor_name":"Swa31",
+    "installation_date":"2017-06-29",
+    "note":null,
+    "location_type":"Outdoor",
+    "status":"A",
+    "direction_1":"North",
+    "direction_2":"South",
+    "latitude":-37.81668634,
+    "longitude":144.96689733,
+    "location":{
+      "lon":144.96689733,
+      "lat":-37.81668634
+    }
+  },
+  {
+    "location_id":47,
+    "sensor_description":"Melbourne Central-Elizabeth St (East)",
+    "sensor_name":"Eli250_T",
+    "installation_date":"2017-08-24",
+    "note":"Pushbox Upgrade, 25\/07\/2023. Move to 250 Elizabeth Street from adjacent St. Francis Church at 266 Elizabeth.",
+    "location_type":"Outdoor",
+    "status":"A",
+    "direction_1":"North",
+    "direction_2":"South",
+    "latitude":-37.81258467,
+    "longitude":144.9625775,
+    "location":{
+      "lon":144.9625775,
+      "lat":-37.81258467
+    }
+  },
+  {
+    "location_id":142,
+    "sensor_description":"Hamer Hall Entrance (COM Pole 1584)",
+    "sensor_name":"Hammer1584_T",
+    "installation_date":"2023-11-03",
+    "note":null,
+    "location_type":"Outdoor",
+    "status":"A",
+    "direction_1":"East",
+    "direction_2":"West",
+    "latitude":-37.81970749,
+    "longitude":144.96795734,
+    "location":{
+      "lon":144.96795734,
+      "lat":-37.81970749
+    }
+  },
+  {
+    "location_id":184,
+    "sensor_description":"124 Elizabeth Street",
+    "sensor_name":"Eli124_T",
+    "installation_date":"2025-06-28",
+    "note":null,
+    "location_type":"Outdoor",
+    "status":"A",
+    "direction_1":"North",
+    "direction_2":"South",
+    "latitude":-37.81512416,
+    "longitude":144.96371988,
+    "location":{
+      "lon":144.96371988,
+      "lat":-37.81512416
+    }
+  }
+]

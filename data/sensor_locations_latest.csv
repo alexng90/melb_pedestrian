@@ -1,0 +1,8 @@
+location_id,sensor_description,sensor_name,installation_date,note,location_type,status,direction_1,direction_2,latitude,longitude,location
+3,Melbourne Central,Swa295_T,2009-03-25,,Outdoor,A,North,South,-37.81101524,144.96429485,"{'lon': 144.96429485, 'lat': -37.81101524}"
+20,Chinatown-Lt Bourke St (South),LtB170_T,2013-09-06,"Pushbox Upgrade, 20/07/2023",Outdoor,A,East,West,-37.81172914,144.9682466,"{'lon': 144.9682466, 'lat': -37.81172914}"
+21,155-161 Russell Street,Bourke155_T,2013-09-02,,Outdoor,A,North,South,-37.81267313,144.96788288,"{'lon': 144.96788288, 'lat': -37.81267313}"
+30,Lonsdale St (South),Lon189_T,2013-10-14,"Pushbox Upgrade, 20/07/2023",Outdoor,A,East,West,-37.8112185,144.96656806,"{'lon': 144.96656806, 'lat': -37.8112185}"
+59,Building 80 RMIT,RMIT_T,2019-02-13,,Outdoor,A,North,South,-37.80825648,144.96304859,"{'lon': 144.96304859, 'lat': -37.80825648}"
+63,231 Bourke St,Bou231_T,2020-01-07,,Outdoor,A,East,West,-37.81333081,144.96675571,"{'lon': 144.96675571, 'lat': -37.81333081}"
+66,"QV2 Apartments, 300 Swanston Street",QVN_T,2020-04-06,,Outdoor,A,North,South,-37.81057846,144.96444294,"{'lon': 144.96444294, 'lat': -37.81057846}"

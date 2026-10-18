@@ -1,0 +1,53 @@
+Emergency Department (ED) Patient Analytics
+"Synthetic dataset — 10,000 ED attendances, 1 - 31 July 2026"
+
+
+"This workbook contains a synthetic (randomly generated, not real patient) dataset built to illustrate an ED analytics workflow."
+
+Sheets:
+"  1. Raw_Data - 10,000 row patient-level dataset (the requested fields)"
+"  2. Doctor_Workload - patient volume & wait time by ED doctor, by department"
+"  3. Department_Workload - daily trend, admission rate, bed wait, LOS by specialisation"
+  4. Demand_Forecast - next month (Aug 2026) forecast using linear trend + day-of-week seasonality
+  5. KPI_Dashboard - headline metrics for a healthcare / ED manager
+
+Methodology notes:
+  - Arrival volumes follow realistic day-of-week (busier Mon/weekends) and hourly (evening peak) patterns.
+"  - Waiting times are lognormal-distributed, with adjustments for department crowding and peak hours."
+  - Forecast = OLS linear trend on daily volume x day-of-week seasonal index (average ratio of actual/trend per weekday).
+    An 80% interval is shown using the historical residual standard deviation.
+  - All figures are illustrative. Replace Raw_Data with real extract data to make this workbook operational.
+,,,,
+ED Manager KPI Dashboard — July 2026,,,
+Headline operational metrics for hospital / ED management review,,,
+,,,,
+Total ED Attendances (month),,,"10,000"
+Average Daily Attendances,,,322.6
+Average ED Waiting Time (min),,,60.7
+Median ED Waiting Time (min),,,51.0
+% Seen Within 30 min (target benchmark),,,18.2%
+% Waiting > 60 min,,,38.6%
+% Waiting > 120 min (breach risk),,,7.3%
+Admission Rate,,,32.5%
+"Average Length of Stay, if admitted (days)",,,4.6
+"Average Waiting Time for Bed, if admitted (min)",,,176.4
+Specialist Referral Rate,,,57.9%
+Follow-Up Appointment Rate,,,39.6%
+Busiest Day (this month),,,2026-07-13 (384 patients)
+Peak Arrival Hour,,,18:00
+Busiest Department,,,General Medicine (2169 patients)
+Highest-Volume Doctor,,,DR007 - Surgery (508 patients)
+Forecast Next Month Attendances,,,"9,292 (-7.1% vs this month)"
+ED Workload by Department — July 2026,,,,,,
+,,,,,,
+Specialisation,Total_Patients,Avg_Wait_min,Admit_Rate_%,Avg_Bed_Wait_min,Avg_LOS_days,Follow_Up_Rate_%
+General Medicine,2169,70.6,29.9,172.7,4.8,37.1
+Surgery,1438,64,41.6,180.9,4.8,43.7
+Paediatrics,1243,52.1,13.4,174.2,4.4,27.2
+Orthopaedics,1243,67.5,26.5,178.8,4.8,38.9
+Cardiology,1006,42.7,49.3,172.2,4.5,47.7
+Trauma,685,46.9,52.6,180.7,4.6,51.7
+ENT,606,68.7,9.1,201.5,4.6,30
+Neurology,601,55.4,40.9,172.1,4.7,44.4
+Obstetrics & Gynaecology,511,56,34.6,174.2,4.4,41.3
+Psychiatry,498,70.1,33.9,175.4,4.3,41.6

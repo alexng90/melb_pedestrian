@@ -1,0 +1,9 @@
+location_id,sensor_description,sensor_name,installation_date,note,location_type,status,direction_1,direction_2,latitude,longitude,location
+5,Princes Bridge,PriNW_T,2009-03-26,Replace with: 00:6e:02:01:9e:54,Outdoor,A,North,South,-37.81874249,144.96787656,"{'lon': 144.96787656, 'lat': -37.81874249}"
+25,Melbourne Convention Exhibition Centre,MCEC_T,2013-08-28,,Outdoor,A,East,West,-37.82401776,144.95604426,"{'lon': 144.95604426, 'lat': -37.82401776}"
+29,St Kilda Rd-Alexandra Gardens,AG_T,2013-10-11,sensor upgraded from laser to 3D on 19/12/2019,Outdoor,A,North,South,-37.8199817,144.96872865,"{'lon': 144.96872865, 'lat': -37.8199817}"
+35,Southbank Promenade,SouthB_T,2016-04-11,Device replaced with two new sensors on 15-4-21,Outdoor,A,East,West,-37.82018685,144.96508508,"{'lon': 144.96508508, 'lat': -37.82018685}"
+41,Flinders La-Swanston St (West),Swa31,2017-06-29,,Outdoor,A,North,South,-37.81668634,144.96689733,"{'lon': 144.96689733, 'lat': -37.81668634}"
+47,Melbourne Central-Elizabeth St (East),Eli250_T,2017-08-24,"Pushbox Upgrade, 25/07/2023. Move to 250 Elizabeth Street from adjacent St. Francis Church at 266 Elizabeth.",Outdoor,A,North,South,-37.81258467,144.9625775,"{'lon': 144.9625775, 'lat': -37.81258467}"
+142,Hamer Hall Entrance (COM Pole 1584),Hammer1584_T,2023-11-03,,Outdoor,A,East,West,-37.81970749,144.96795734,"{'lon': 144.96795734, 'lat': -37.81970749}"
+184,124 Elizabeth Street,Eli124_T,2025-06-28,,Outdoor,A,North,South,-37.81512416,144.96371988,"{'lon': 144.96371988, 'lat': -37.81512416}"
